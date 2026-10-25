@@ -1,0 +1,9 @@
+[package]
+name = "leslie_lamport_ai"
+version = "1.0.0"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/mainnet" }
+
+[addresses]
+leslie_lamport_ai = "0x0"
